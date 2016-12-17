@@ -1,0 +1,25 @@
+{
+  "name": "gulp-ams3",
+  "version": "1.0.0",
+  "description": "Upload,update delete file in s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamanhquyen/gulp-ams3.git"
+  },
+  "keywords": [
+    "gulp",
+    "s3",
+    "gulp",
+    "aws"
+  ],
+  "author": "Manh Quyen Ta <tamanhquyen.it@gmail.com> (http://tamanhquyen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamanhquyen/gulp-ams3/issues"
+  },
+  "homepage": "https://github.com/tamanhquyen/gulp-ams3#readme"
+}
