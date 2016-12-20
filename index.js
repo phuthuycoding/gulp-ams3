@@ -53,9 +53,9 @@ module.exports = function(aws) {
 
                 client.putBuffer(file.contents, uploadPath, headers, function(err, res) {
                     if (err || res.statusCode !== 200) {
-                        gutil.log(gutil.colors.red('[FAILED]', file.path + " -> " + uploadPath));
+                        gutil.log(gutil.colors.red('UPLOAD FAILED', file.path + " -> " + uploadPath));
                     } else {
-                        gutil.log(gutil.colors.green('[SUCCESS]', file.path + " -> " + uploadPath));
+                        gutil.log(gutil.colors.green('UPLOAD SUCCESS', file.path + " -> " + uploadPath));
                         res.resume();
                     }
                 });
@@ -64,6 +64,9 @@ module.exports = function(aws) {
             });
         },
         delete: function(options) {
+
+        },
+        update:function(options){
 
         }
     }
